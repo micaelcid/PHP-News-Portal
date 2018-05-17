@@ -1,0 +1,319 @@
+INSERT INTO CATEGORIA(CD_CATEGORIA,NM_CATEGORIA) VALUES (1, 'Ciência');
+INSERT INTO CATEGORIA(CD_CATEGORIA,NM_CATEGORIA) VALUES (2, 'Tecnologia');
+INSERT INTO CATEGORIA(CD_CATEGORIA,NM_CATEGORIA) VALUES (3, 'Brasil');
+INSERT INTO CATEGORIA(CD_CATEGORIA,NM_CATEGORIA) VALUES (4, 'Internacional');
+INSERT INTO CATEGORIA(CD_CATEGORIA,NM_CATEGORIA) VALUES (5, 'Política');
+INSERT INTO CATEGORIA(CD_CATEGORIA,NM_CATEGORIA) VALUES (6, 'Economia');
+INSERT INTO CATEGORIA(CD_CATEGORIA,NM_CATEGORIA) VALUES (7, 'Esporte');
+INSERT INTO CATEGORIA(CD_CATEGORIA,NM_CATEGORIA) VALUES (8, 'Cultura');
+
+INSERT INTO AUTOR(CD_AUTOR, NM_AUTOR) VALUES (1, 'Jessica Nunes');
+INSERT INTO AUTOR(CD_AUTOR, NM_AUTOR) VALUES (2, 'Juliana Diógenes');
+INSERT INTO AUTOR(CD_AUTOR, NM_AUTOR) VALUES (3, 'Priscila Mengue');
+INSERT INTO AUTOR(CD_AUTOR, NM_AUTOR) VALUES (4, 'Ana Paula Niederauer');
+INSERT INTO AUTOR(CD_AUTOR, NM_AUTOR) VALUES (5, 'Cleusa Duarte');
+INSERT INTO AUTOR(CD_AUTOR, NM_AUTOR) VALUES (6, 'O Estado de S. Paulo');
+
+INSERT INTO NOTICIA(CD_NOTICIA, CD_CATEGORIA, NM_TITULO_NOTICIA, NM_LINHA_FINA_NOTICIA,
+ DS_TEXTO_NOTICIA, DT_PUBLICACAO_NOTICIA, HR_PUBLICACAO_NOTICIA, IC_DESTAQUE_NOTICIA)
+VALUES
+(
+	1,
+	1,
+	'Buracos Negros',
+	'Buracos negros soam muito estranhos para serem reais. Mas eles são bastante comuns no espaço.',
+	'Imagine, em algum lugar da galáxia, o cadáver de uma estrela tão densa que perfura o tecido do espaço-tempo.
+	 Tão denso que devora qualquer matéria circundante que fique muito perto, puxando-a com uma quantidade de gravidade da qual nada,
+	 nem mesmo a luz, pode escapar.
+	 E uma vez que a matéria cruza o ponto sem retorno, o horizonte de eventos, ela espirala sem esperanças em direção a um ponto quase 
+	 infinitamente pequeno, um ponto em que o espaço-tempo é tão curvado que todas as nossas teorias se quebram:
+	 a singularidade. Ninguém sai vivo. Buracos negros soam muito estranhos para serem reais. Mas eles são bastante comuns no espaço. Há dezenas conhecidos e provavelmente outros milhões na Via Láctea e um bilhão de vezes mais universo a fora. Os cientistas também acreditam que pode haver um buraco negro supermassivo no centro de quase todas as galáxias, inclusive da nossa. Os ingredientes e as dinâmicas dessas aberrações monstruosas do espaço-tempo têm confundido cientistas há séculos. Tudo começou na Inglaterra em 1665, quando uma maçã soltou do ramo de uma árvore e caiu no chão. Assistindo de seu jardim em Woolsthorpe Manor, Isaac Newton começou a pensar na queda da maçã: uma linha de pensamento que, duas décadas depois, terminou com sua conclusão de que deveria haver algum tipo de força universal regendo o movimento de maçãs, balas de canhão e até corpos planetários. Ele a chamou de gravidade.
+
+Newton percebeu que qualquer objeto com massa teria uma atração gravitacional. Ele descobriu que, à medida que a massa aumenta, a gravidade aumenta. Para escapar da gravidade de um objeto, você precisaria alcançar sua velocidade de escape. Para escapar da gravidade da Terra, você precisa viajar a uma velocidade de aproximadamente 11 quilômetros por segundo.
+
+Foi a descoberta de Newton das leis da gravidade e do movimento que, 100 anos depois, levaram o Reverendo John Michell, um polêmico britânico, à conclusão de que, se houvesse uma estrela muito mais massiva ou muito mais compacta que o Sol, sua velocidade de escape poderia superar até mesmo a velocidade da luz. Ele chamou esses objetos de “estrelas escuras”. Doze anos depois, o cientista francês e matemático Pierre Simon de Laplace chegou à mesma conclusão e ofereceu provas matemáticas para a existência do que agora conhecemos como buracos negros.
+
+Em 1915, Albert Einstein estabeleceu a teoria revolucionária da relatividade geral, que considerava espaço e tempo como um objeto curvado de quatro dimensões. Ao invés de ver a gravidade como uma força, Einstein viu isso como uma distorção do espaço-tempo em si. Um objeto massivo, como o Sol, criaria um entalhe no espaço-tempo, um poço gravitacional, fazendo com que qualquer objeto circundante, como os planetas em nosso sistema solar, seguisse um caminho curvo ao redor.
+
+Um mês depois que Einstein publicou essa teoria, o físico alemão Karl Schwarzschild descobriu algo fascinante nas equações de Einstein. Schwarzschild encontrou uma solução que levou os cientistas a concluir que uma região do espaço poderia ficar tão distorcida que criaria um poço gravitacional que nenhum objeto poderia escapar.
+
+Até 1967, essas misteriosas regiões do espaço-tempo não receberam um título universal. Os cientistas lançaram termos como “colapsar” ou “estrela congelada” ao discutir as tramas escuras da gravidade inescapável. Em uma conferência em Nova York, o físico John Wheeler popularizou o termo “buraco negro”. Durante a formação da estrela, a gravidade comprime a matéria até ser interrompida pela pressão interna da estrela. Se a pressão interna não interromper a compressão, isso pode resultar na formação de um buraco negro.
+
+Alguns buracos negros são formados quando as estrelas massivas colapsam. Outros, acreditam os cientistas, foram formados muito cedo no universo, um bilhão de anos depois do Big Bang. Não há limites para o quão imenso pode ser um buraco negro, às vezes mais de bilhões de vezes a massa do Sol. De acordo com a relatividade geral, também não há limite para o quão pequeno eles podem ser (embora a mecânica quântica sugira o contrário). Os buracos negros crescem em massa enquanto continuam a devorar a matéria circundante. Pequenos buracos negros roubam a matéria de uma estrela companheira enquanto os maiores se alimentam de qualquer matéria que esteja muito próxima.
+
+Os buracos negros contêm um horizonte de eventos, além do qual nem mesmo a luz pode escapar. Pelo fato de nenhuma luz conseguir sair, é impossível ver além dessa superfície de um buraco negro. Mas só porque você não pode ver um buraco negro, não significa que você não possa detectar um.
+
+Os cientistas podem detectar buracos negros observando o movimento de estrelas e gás nas proximidades, bem como a matéria acrescida dos arredores. Esta matéria gira em torno do buraco negro, criando um disco plano chamado disco de acreção. A matéria que gira perde energia e libera a radiação sob a forma de raios-X e outras radiações eletromagnéticas antes de passar pelo horizonte de eventos.
+
+É assim que os astrônomos identificaram Cygnus X-1 em 1971. Cygnus X-1 foi encontrado como parte de um sistema de estrela binária em que uma estrela extremamente quente e brilhante chamada supergigante azul formou um disco de acreção em torno de um objeto invisível. O sistema de estrela binária estava emitindo raios-X, que geralmente não são produzidos por supergigantes azuis. Ao calcular quão longe e rápido a estrela visível se movia, os astrônomos conseguiram calcular a massa do objeto não visto. Embora tenha sido comprimido em um volume menor que a Terra, a massa do objeto era mais que seis vezes maior que a do nosso Sol.
+
+Vários experimentos diferentes estudam buracos negros. O telescópio Event Horizon examinará os buracos negros no núcleo da nossa galáxia e uma galáxia próxima, M87. Sua resolução é alta o suficiente para gerar fluxo de imagem em torno do horizonte de eventos.
+
+Os cientistas também podem fazer o mapeamento de reverberação, que usa telescópios de raios-X para procurar diferenças horárias entre as emissões de vários locais perto do buraco negro para entender as órbitas de gás e fótons ao redor dele.
+
+O Laser Interferometer Gravitational-Wave Observatory, ou LIGO, procura identificar a fusão de dois buracos negros, que emitem radiação gravitacional, ou ondas gravitacionais, à medida que os dois buracos negros se fundem.
+
+Além dos discos de acreção, os buracos negros também têm ventos e jatos incrivelmente brilhantes que irrompem deles ao longo de seu eixo de rotação, disparando matéria e radiação em quase a velocidade da luz. Os cientistas ainda estão trabalhando para entender como esses jatos se formam. Os cientistas descobriram que os buracos negros não são tão negros como eles pensavam que eram. Algumas informações podem escapar deles. Em 1974, Stephen Hawking publicou resultados que mostraram que os buracos negros devem irradiar energia ou radiação Hawking.
+
+Os pares de matéria-antimatéria são constantemente produzidos em todo o universo, mesmo fora do horizonte de eventos de um buraco negro. A teoria quântica prediz que uma partícula pode ser arrastada antes que o par tenha chance de a aniquilar, e a outra pode escapar sob a forma de radiação Hawking. Isso contradiz a imagem que a relatividade geral cria de um buraco negro de onde nada pode escapar.
+
+Mas como um buraco negro irradia radiação Hawking, ele evapora lentamente até desaparecer. Então, o que acontece com todas as informações codificadas em seu horizonte? Ela desaparece, violando a mecânica quântica? Ou é preservada, como a mecânica quântica prevê? Uma das teorias é que a radiação Hawking contém toda essa informação. Quando o buraco negro evapora e desaparece, já preservou a informação de tudo o que caiu nele, irradiando-a para o universo.
+
+Os buracos negros dão aos cientistas a oportunidade de testar a relatividade geral em campos gravitacionais muito extremos. Eles veem os buracos negros como uma oportunidade para responder a uma das maiores questões na teoria da física de partículas: por que não podemos unir a mecânica quântica com a relatividade geral?
+
+Além do horizonte de eventos, os buracos negros se encaminham para um dos mistérios mais sombrios da física. Os cientistas não podem explicar o que acontece quando os objetos atravessam o horizonte de eventos e a espiralam em direção à singularidade. A relatividade geral e a mecânica quântica colidem e as equações de Einstein explodem no infinito. Os buracos negros podem até abrigar caminhos para outros universos chamados de buracos de minhoca e fontes violentas de energia e matéria chamadas buracos brancos, embora pareça muito improvável que a natureza permita que essas estruturas existam.
+
+Às vezes, a realidade é mais estranha do que a ficção.',
+	'2017-08-14',
+	'16:21',
+	0
+);
+
+INSERT INTO AUTOR_NOTICIA(CD_AUTOR, CD_NOTICIA)
+VALUES(1,1);
+
+INSERT INTO NOTICIA(CD_NOTICIA, CD_CATEGORIA, NM_TITULO_NOTICIA, NM_LINHA_FINA_NOTICIA,
+ DS_TEXTO_NOTICIA, DT_PUBLICACAO_NOTICIA, HR_PUBLICACAO_NOTICIA, IC_DESTAQUE_NOTICIA)
+VALUES
+(
+	2,
+	3,
+	'Barco naufraga com 129 pessoas na Bahia; cinco corpos foram localizados',
+	'Embarcação virou no início da manhã desta quinta-feira, 24, próximo à Ilha de Itaparica; até 10 horas, 21 passageiros haviam sido resgatados',
+	'Uma embarcação naufragou na manhã desta quinta-feira, 24, próximo à Ilha de Itaparica, na localidade de Mar Grande, na Bahia. Segundo o comandante Flávio Almeida, do 2º Distrito Naval, 129 pessoas estavam na embarcação. Até as 10h30, ao menos cinco corpos foram resgatados sem vida, de acordo com Almeida. Uma das vítimas foi transportada para o Hospital do Subúrbio, em Salvador. 
+
+A embarcação Cavalo Marinho tinha capacidade para levar até 162 passageiros. O acidente ocorreu a poucos metros do Terminal marítimo. O chamado de emergência para a Capitania foi recebido através do rádio por volta das 8 horas.
+
+De acordo com a Prefeitura de Vera Cruz, a lancha saiu do terminal da Ilha por volta das 6h30 com destino a Salvador e naufragou a cerca de 200 metros do Terminal.
+
+A Polícia Militar foi acionada e atuou por meio do Grupamento Aéreo (Graer) e da 5ª Companhia Independente de Polícia Militar (CIPM/Ilha de Vera Cruz), que  também já prestou socorro a algumas vítimas para a Unidade de Pronto Atendimento (UPA) de Mar Grande e ao Hospital Geral de Itaparica.
+
+Segundo a Secretaria de Segurança Pública da Bahia, dois helicópteros da Polícia Militar da Bahia foram enviados ao local, assim como ambulâncias do Corpo de Bombeiros. Além disso, uma equipe de mergulhadores também está à caminho. Ainda de acordo com a secretaria, um chamado sobre o incidente, pelo 190, foi aberto às 6h30 desta manhã.
+
+"Assim que recebemos uma chamada de emergência por rádio, enviamos três embarcações de resgate com médico a bordo e todos as equipes para prestar socorro", afirmou o oficial da Marinha, Jean Torres Araújo.
+
+A avaliação da lancha será feita pela Marinha. Ela analisará a regularização da embarcação e se operava com número de passageiros acima do permitido. Por conta disso, a Secretaria de Segurança Pública informou que um inquérito será aberto para que as causas do acidente sejam apuradas.
+
+O governador da Bahia, Rui Costa (PT), e o prefeito de Salvador, ACM Neto (DEM), postaram notas de pesar em suas respectivas contas nas redes sociais. "Todas as forças do Governo do Estado estão mobilizadas para dar assistência e prestar socorro às vítimas. Estou acompanhando pessoalmente esta difícil operação desde cedo e todas as providências foram tomadas imediatamente, com o reforço dos nossos efetivos nas áreas da segurança e da saúde pública", escreveu o governador.
+
+"Todos os órgãos da Prefeitura estão envolvidos para ajudar nessa hora difícil. Uma equipe de psicólogos e assistentes da Secretaria Municipal de Promoção Social e Combate à Pobreza está no local para prestar atendimento social e psicológico. Também mobilizamos 5 ambulâncias do Samu (2 em Mar Grande e 3 em Salvador) e mais uma "ambulancha" para prestar socorro. As UPAs estão preparadas para atender às vítimas.", informou ACM Neto.
+',
+	'2017-08-24',
+	'09:53',
+	0
+);
+
+INSERT INTO AUTOR_NOTICIA(CD_AUTOR, CD_NOTICIA)
+VALUES(2,2);
+
+INSERT INTO NOTICIA(CD_NOTICIA, CD_CATEGORIA, NM_TITULO_NOTICIA, NM_LINHA_FINA_NOTICIA,
+ DS_TEXTO_NOTICIA, DT_PUBLICACAO_NOTICIA, HR_PUBLICACAO_NOTICIA, IC_DESTAQUE_NOTICIA)
+VALUES
+(
+	3,
+	4,
+	'Tempestade Harvey deixa 5 mortos e inunda diversas áreas do Texas',
+	'O Serviço Meteorológico Nacional dos EUA (NWS) emitiu um alerta afirmando que ‘as condições climáticas estão além de tudo já experimentado’;',
+	'HOUSTON, EUA - Depois de ter devastado o litoral do Texas, a tempestade Harvey inundou o interior do Estado, incluindo sua principal cidade, Houston. O Serviço Meteorológico Nacional dos EUA (NWS) emitiu um alerta neste domingo, 27, sobre a força das águas após a passagem do fenômeno, afirmando que "as condições climáticas estão além de tudo já experimentado".
+
+O furacão, que se enfraqueceu no sábado e se transformou em uma tempestade tropical, deixou pelo menos cinco mortos e dezenas de feridos, segundo NWS. Uma das vítimas morreu ao ficar presa no incêndio de sua casa durante a tempestade na região de Rockport, segundo uma fonte do condado de Aransas, no litoral texano. Em Houston, uma mulher se afogou ao deixar seu carro em uma área inundada, de acordo com a imprensa local.
+
+“Esse evento é sem precedentes e todos os impactos são desconhecidos e além de tudo já experimentado. Sigam as ordens oficiais para garantir sua segurança", disse o NWS no Twitter. Os serviços de emergência da capital petroleira dos EUA enviaram mais cedo uma mensagem muito clara: "Se estão fugindo de uma inundação, não fiquem no sótão como último recurso. Se os andares mais altos de seu prédio se tornarem perigosos, subam para o telhado e chamem o 911 para obter ajuda".
+
+"A situação é grave e vai piorar", afirmou o governador do Texas, Greg Abbott, à Fox News. Ele disse ainda que os danos causados chegam a milhões de dólares.
+
+O Harvey deixou estradas submersas, casas sem telhados e postes arrancados. Em Port Aransas, abandonado por seus habitantes, vários barcos foram parar no meio das ruas. O principal aeroporto de Houston, o George Bush International, cancelou todos seus voos, assim como o Hobby International, em razão da quantidade de água nas pistas.
+
+A região de Houston/Galveston recebeu mais de 60 cm de chuva nas últimas 24 horas, segundo o NWS, que acrescentou que as "inundações catastróficas vão piorar e poderão ser históricas". Segundo o mais recente boletim do Centro Nacional de Furacões (NHC), entre 38 e 63 cm de chuva cairão na região até quinta-feira.
+
+A Guarda Costeira, que socorreu cerca de 30 pessoas, disse ter recebido mais de 300 ligações da área de Houston. Com suas ruas transformadas em rios, as autoridades da cidade de 2,3 milhões de habitantes pediram que a população permaneça em suas casas.
+
+"Não posso ser mais claro sobre a amplitude das inundações nas ruas. Se saírem, vocês se colocam em perigo e a nossas equipes de resgate", advertiu em um tuíte o chefe da polícia de Houston, Art Acevedo.
+
+Milhares de pessoas obedeceram aos avisos de deslocamento. Segundo a Cruz Vermelha americana, mais de 1,8 mil pessoas se encontram em 35 abrigos no Texas e Louisiana.
+
+Em Port Aransas, uma das primeiras cidades atingidas, os barcos foram jogados contra edifícios. Em Victoria, uma localidade ao norte de Rockport, os habitantes ficaram chocados pela intensidade da tempestade. "Se soubesse que ia ser assim, certamente teria ido embora", afirmou Robby Villa.
+
+O presidente dos EUA, Donald Trump, que já declarou estado de catástrofe natural para liberar fundos federais para atuar ante os danos causados pelo Harvey, confirmou que vai em breve visitar o Estado atingido. "Irei ao Texas tão logo a viagem possa ser feita sem causar nenhum transtorno. O foco deve ser na vida e na segurança", tuitou neste domingo o presidente.
+
+Trump, que não quer repetir a reação tardia de George W. Bush com o furacão Katrina - que deixou 1,8 mil mortos em New Orleans em 2005 -, também elogiou os esforços feitos pelas equipes de emergência.',
+	'2017-08-27',
+	'12:06',
+	1
+);
+INSERT INTO AUTOR_NOTICIA(CD_AUTOR, CD_NOTICIA)
+VALUES(6,3);
+
+INSERT INTO NOTICIA(CD_NOTICIA, CD_CATEGORIA, NM_TITULO_NOTICIA, NM_LINHA_FINA_NOTICIA,
+ DS_TEXTO_NOTICIA, DT_PUBLICACAO_NOTICIA, HR_PUBLICACAO_NOTICIA, IC_DESTAQUE_NOTICIA)
+VALUES
+(
+	4,
+	2,
+	'Barco naufraga com 129 pessoas na Bahia; cinco corpos foram localizados',
+	'Embarcação virou no início da manhã desta quinta-feira, 24, próximo à Ilha de Itaparica; até 10 horas, 21 passageiros haviam sido resgatados',
+	'Uma embarcação naufragou na manhã desta quinta-feira, 24, próximo à Ilha de Itaparica, na localidade de Mar Grande, na Bahia. Segundo o comandante Flávio Almeida, do 2º Distrito Naval, 129 pessoas estavam na embarcação. Até as 10h30, ao menos cinco corpos foram resgatados sem vida, de acordo com Almeida. Uma das vítimas foi transportada para o Hospital do Subúrbio, em Salvador. 
+
+A embarcação Cavalo Marinho tinha capacidade para levar até 162 passageiros. O acidente ocorreu a poucos metros do Terminal marítimo. O chamado de emergência para a Capitania foi recebido através do rádio por volta das 8 horas.
+
+De acordo com a Prefeitura de Vera Cruz, a lancha saiu do terminal da Ilha por volta das 6h30 com destino a Salvador e naufragou a cerca de 200 metros do Terminal.
+
+A Polícia Militar foi acionada e atuou por meio do Grupamento Aéreo (Graer) e da 5ª Companhia Independente de Polícia Militar (CIPM/Ilha de Vera Cruz), que  também já prestou socorro a algumas vítimas para a Unidade de Pronto Atendimento (UPA) de Mar Grande e ao Hospital Geral de Itaparica.
+
+Segundo a Secretaria de Segurança Pública da Bahia, dois helicópteros da Polícia Militar da Bahia foram enviados ao local, assim como ambulâncias do Corpo de Bombeiros. Além disso, uma equipe de mergulhadores também está à caminho. Ainda de acordo com a secretaria, um chamado sobre o incidente, pelo 190, foi aberto às 6h30 desta manhã.
+
+"Assim que recebemos uma chamada de emergência por rádio, enviamos três embarcações de resgate com médico a bordo e todos as equipes para prestar socorro", afirmou o oficial da Marinha, Jean Torres Araújo.
+
+A avaliação da lancha será feita pela Marinha. Ela analisará a regularização da embarcação e se operava com número de passageiros acima do permitido. Por conta disso, a Secretaria de Segurança Pública informou que um inquérito será aberto para que as causas do acidente sejam apuradas.
+
+O governador da Bahia, Rui Costa (PT), e o prefeito de Salvador, ACM Neto (DEM), postaram notas de pesar em suas respectivas contas nas redes sociais. "Todas as forças do Governo do Estado estão mobilizadas para dar assistência e prestar socorro às vítimas. Estou acompanhando pessoalmente esta difícil operação desde cedo e todas as providências foram tomadas imediatamente, com o reforço dos nossos efetivos nas áreas da segurança e da saúde pública", escreveu o governador.
+
+"Todos os órgãos da Prefeitura estão envolvidos para ajudar nessa hora difícil. Uma equipe de psicólogos e assistentes da Secretaria Municipal de Promoção Social e Combate à Pobreza está no local para prestar atendimento social e psicológico. Também mobilizamos 5 ambulâncias do Samu (2 em Mar Grande e 3 em Salvador) e mais uma "ambulancha" para prestar socorro. As UPAs estão preparadas para atender às vítimas.", informou ACM Neto.
+',
+	'2017-08-24',
+	'09:53',
+	0
+);
+
+INSERT INTO AUTOR_NOTICIA(CD_AUTOR, CD_NOTICIA)
+VALUES(2,4);
+
+INSERT INTO NOTICIA(CD_NOTICIA, CD_CATEGORIA, NM_TITULO_NOTICIA, NM_LINHA_FINA_NOTICIA,
+ DS_TEXTO_NOTICIA, DT_PUBLICACAO_NOTICIA, HR_PUBLICACAO_NOTICIA, IC_DESTAQUE_NOTICIA)
+VALUES
+(
+	5,
+	2,
+	'Barco naufraga com 129 pessoas na Bahia; cinco corpos foram localizados',
+	'Embarcação virou no início da manhã desta quinta-feira, 24, próximo à Ilha de Itaparica; até 10 horas, 21 passageiros haviam sido resgatados',
+	'Uma embarcação naufragou na manhã desta quinta-feira, 24, próximo à Ilha de Itaparica, na localidade de Mar Grande, na Bahia. Segundo o comandante Flávio Almeida, do 2º Distrito Naval, 129 pessoas estavam na embarcação. Até as 10h30, ao menos cinco corpos foram resgatados sem vida, de acordo com Almeida. Uma das vítimas foi transportada para o Hospital do Subúrbio, em Salvador. 
+
+A embarcação Cavalo Marinho tinha capacidade para levar até 162 passageiros. O acidente ocorreu a poucos metros do Terminal marítimo. O chamado de emergência para a Capitania foi recebido através do rádio por volta das 8 horas.
+
+De acordo com a Prefeitura de Vera Cruz, a lancha saiu do terminal da Ilha por volta das 6h30 com destino a Salvador e naufragou a cerca de 200 metros do Terminal.
+
+A Polícia Militar foi acionada e atuou por meio do Grupamento Aéreo (Graer) e da 5ª Companhia Independente de Polícia Militar (CIPM/Ilha de Vera Cruz), que  também já prestou socorro a algumas vítimas para a Unidade de Pronto Atendimento (UPA) de Mar Grande e ao Hospital Geral de Itaparica.
+
+Segundo a Secretaria de Segurança Pública da Bahia, dois helicópteros da Polícia Militar da Bahia foram enviados ao local, assim como ambulâncias do Corpo de Bombeiros. Além disso, uma equipe de mergulhadores também está à caminho. Ainda de acordo com a secretaria, um chamado sobre o incidente, pelo 190, foi aberto às 6h30 desta manhã.
+
+"Assim que recebemos uma chamada de emergência por rádio, enviamos três embarcações de resgate com médico a bordo e todos as equipes para prestar socorro", afirmou o oficial da Marinha, Jean Torres Araújo.
+
+A avaliação da lancha será feita pela Marinha. Ela analisará a regularização da embarcação e se operava com número de passageiros acima do permitido. Por conta disso, a Secretaria de Segurança Pública informou que um inquérito será aberto para que as causas do acidente sejam apuradas.
+
+O governador da Bahia, Rui Costa (PT), e o prefeito de Salvador, ACM Neto (DEM), postaram notas de pesar em suas respectivas contas nas redes sociais. "Todas as forças do Governo do Estado estão mobilizadas para dar assistência e prestar socorro às vítimas. Estou acompanhando pessoalmente esta difícil operação desde cedo e todas as providências foram tomadas imediatamente, com o reforço dos nossos efetivos nas áreas da segurança e da saúde pública", escreveu o governador.
+
+"Todos os órgãos da Prefeitura estão envolvidos para ajudar nessa hora difícil. Uma equipe de psicólogos e assistentes da Secretaria Municipal de Promoção Social e Combate à Pobreza está no local para prestar atendimento social e psicológico. Também mobilizamos 5 ambulâncias do Samu (2 em Mar Grande e 3 em Salvador) e mais uma "ambulancha" para prestar socorro. As UPAs estão preparadas para atender às vítimas.", informou ACM Neto.
+',
+	'2017-08-24',
+	'09:53',
+	0
+);
+
+INSERT INTO AUTOR_NOTICIA(CD_AUTOR, CD_NOTICIA)
+VALUES(2,5);
+
+INSERT INTO NOTICIA(CD_NOTICIA, CD_CATEGORIA, NM_TITULO_NOTICIA, NM_LINHA_FINA_NOTICIA,
+ DS_TEXTO_NOTICIA, DT_PUBLICACAO_NOTICIA, HR_PUBLICACAO_NOTICIA, IC_DESTAQUE_NOTICIA)
+VALUES
+(
+	6,
+	2,
+	'Barco naufraga com 129 pessoas na Bahia; cinco corpos foram localizados',
+	'Embarcação virou no início da manhã desta quinta-feira, 24, próximo à Ilha de Itaparica; até 10 horas, 21 passageiros haviam sido resgatados',
+	'Uma embarcação naufragou na manhã desta quinta-feira, 24, próximo à Ilha de Itaparica, na localidade de Mar Grande, na Bahia. Segundo o comandante Flávio Almeida, do 2º Distrito Naval, 129 pessoas estavam na embarcação. Até as 10h30, ao menos cinco corpos foram resgatados sem vida, de acordo com Almeida. Uma das vítimas foi transportada para o Hospital do Subúrbio, em Salvador. 
+
+A embarcação Cavalo Marinho tinha capacidade para levar até 162 passageiros. O acidente ocorreu a poucos metros do Terminal marítimo. O chamado de emergência para a Capitania foi recebido através do rádio por volta das 8 horas.
+
+De acordo com a Prefeitura de Vera Cruz, a lancha saiu do terminal da Ilha por volta das 6h30 com destino a Salvador e naufragou a cerca de 200 metros do Terminal.
+
+A Polícia Militar foi acionada e atuou por meio do Grupamento Aéreo (Graer) e da 5ª Companhia Independente de Polícia Militar (CIPM/Ilha de Vera Cruz), que  também já prestou socorro a algumas vítimas para a Unidade de Pronto Atendimento (UPA) de Mar Grande e ao Hospital Geral de Itaparica.
+
+Segundo a Secretaria de Segurança Pública da Bahia, dois helicópteros da Polícia Militar da Bahia foram enviados ao local, assim como ambulâncias do Corpo de Bombeiros. Além disso, uma equipe de mergulhadores também está à caminho. Ainda de acordo com a secretaria, um chamado sobre o incidente, pelo 190, foi aberto às 6h30 desta manhã.
+
+"Assim que recebemos uma chamada de emergência por rádio, enviamos três embarcações de resgate com médico a bordo e todos as equipes para prestar socorro", afirmou o oficial da Marinha, Jean Torres Araújo.
+
+A avaliação da lancha será feita pela Marinha. Ela analisará a regularização da embarcação e se operava com número de passageiros acima do permitido. Por conta disso, a Secretaria de Segurança Pública informou que um inquérito será aberto para que as causas do acidente sejam apuradas.
+
+O governador da Bahia, Rui Costa (PT), e o prefeito de Salvador, ACM Neto (DEM), postaram notas de pesar em suas respectivas contas nas redes sociais. "Todas as forças do Governo do Estado estão mobilizadas para dar assistência e prestar socorro às vítimas. Estou acompanhando pessoalmente esta difícil operação desde cedo e todas as providências foram tomadas imediatamente, com o reforço dos nossos efetivos nas áreas da segurança e da saúde pública", escreveu o governador.
+
+"Todos os órgãos da Prefeitura estão envolvidos para ajudar nessa hora difícil. Uma equipe de psicólogos e assistentes da Secretaria Municipal de Promoção Social e Combate à Pobreza está no local para prestar atendimento social e psicológico. Também mobilizamos 5 ambulâncias do Samu (2 em Mar Grande e 3 em Salvador) e mais uma "ambulancha" para prestar socorro. As UPAs estão preparadas para atender às vítimas.", informou ACM Neto.
+',
+	'2017-08-24',
+	'09:53',
+	0
+);
+
+INSERT INTO AUTOR_NOTICIA(CD_AUTOR, CD_NOTICIA)
+VALUES(2,6);
+
+INSERT INTO NOTICIA(CD_NOTICIA, CD_CATEGORIA, NM_TITULO_NOTICIA, NM_LINHA_FINA_NOTICIA,
+ DS_TEXTO_NOTICIA, DT_PUBLICACAO_NOTICIA, HR_PUBLICACAO_NOTICIA, IC_DESTAQUE_NOTICIA)
+VALUES
+(
+	7,
+	2,
+	'Barco naufraga com 129 pessoas na Bahia; cinco corpos foram localizados',
+	'Embarcação virou no início da manhã desta quinta-feira, 24, próximo à Ilha de Itaparica; até 10 horas, 21 passageiros haviam sido resgatados',
+	'Uma embarcação naufragou na manhã desta quinta-feira, 24, próximo à Ilha de Itaparica, na localidade de Mar Grande, na Bahia. Segundo o comandante Flávio Almeida, do 2º Distrito Naval, 129 pessoas estavam na embarcação. Até as 10h30, ao menos cinco corpos foram resgatados sem vida, de acordo com Almeida. Uma das vítimas foi transportada para o Hospital do Subúrbio, em Salvador. 
+
+A embarcação Cavalo Marinho tinha capacidade para levar até 162 passageiros. O acidente ocorreu a poucos metros do Terminal marítimo. O chamado de emergência para a Capitania foi recebido através do rádio por volta das 8 horas.
+
+De acordo com a Prefeitura de Vera Cruz, a lancha saiu do terminal da Ilha por volta das 6h30 com destino a Salvador e naufragou a cerca de 200 metros do Terminal.
+
+A Polícia Militar foi acionada e atuou por meio do Grupamento Aéreo (Graer) e da 5ª Companhia Independente de Polícia Militar (CIPM/Ilha de Vera Cruz), que  também já prestou socorro a algumas vítimas para a Unidade de Pronto Atendimento (UPA) de Mar Grande e ao Hospital Geral de Itaparica.
+
+Segundo a Secretaria de Segurança Pública da Bahia, dois helicópteros da Polícia Militar da Bahia foram enviados ao local, assim como ambulâncias do Corpo de Bombeiros. Além disso, uma equipe de mergulhadores também está à caminho. Ainda de acordo com a secretaria, um chamado sobre o incidente, pelo 190, foi aberto às 6h30 desta manhã.
+
+"Assim que recebemos uma chamada de emergência por rádio, enviamos três embarcações de resgate com médico a bordo e todos as equipes para prestar socorro", afirmou o oficial da Marinha, Jean Torres Araújo.
+
+A avaliação da lancha será feita pela Marinha. Ela analisará a regularização da embarcação e se operava com número de passageiros acima do permitido. Por conta disso, a Secretaria de Segurança Pública informou que um inquérito será aberto para que as causas do acidente sejam apuradas.
+
+O governador da Bahia, Rui Costa (PT), e o prefeito de Salvador, ACM Neto (DEM), postaram notas de pesar em suas respectivas contas nas redes sociais. "Todas as forças do Governo do Estado estão mobilizadas para dar assistência e prestar socorro às vítimas. Estou acompanhando pessoalmente esta difícil operação desde cedo e todas as providências foram tomadas imediatamente, com o reforço dos nossos efetivos nas áreas da segurança e da saúde pública", escreveu o governador.
+
+"Todos os órgãos da Prefeitura estão envolvidos para ajudar nessa hora difícil. Uma equipe de psicólogos e assistentes da Secretaria Municipal de Promoção Social e Combate à Pobreza está no local para prestar atendimento social e psicológico. Também mobilizamos 5 ambulâncias do Samu (2 em Mar Grande e 3 em Salvador) e mais uma "ambulancha" para prestar socorro. As UPAs estão preparadas para atender às vítimas.", informou ACM Neto.
+',
+	'2017-08-24',
+	'09:53',
+	0
+);
+
+INSERT INTO AUTOR_NOTICIA(CD_AUTOR, CD_NOTICIA)
+VALUES(2,7);
+
+INSERT INTO NOTICIA(CD_NOTICIA, CD_CATEGORIA, NM_TITULO_NOTICIA, NM_LINHA_FINA_NOTICIA,
+ DS_TEXTO_NOTICIA, DT_PUBLICACAO_NOTICIA, HR_PUBLICACAO_NOTICIA, IC_DESTAQUE_NOTICIA)
+VALUES
+(
+	8,
+	2,
+	'Barco naufraga com 129 pessoas na Bahia; cinco corpos foram localizados',
+	'Embarcação virou no início da manhã desta quinta-feira, 24, próximo à Ilha de Itaparica; até 10 horas, 21 passageiros haviam sido resgatados',
+	'Uma embarcação naufragou na manhã desta quinta-feira, 24, próximo à Ilha de Itaparica, na localidade de Mar Grande, na Bahia. Segundo o comandante Flávio Almeida, do 2º Distrito Naval, 129 pessoas estavam na embarcação. Até as 10h30, ao menos cinco corpos foram resgatados sem vida, de acordo com Almeida. Uma das vítimas foi transportada para o Hospital do Subúrbio, em Salvador. 
+
+A embarcação Cavalo Marinho tinha capacidade para levar até 162 passageiros. O acidente ocorreu a poucos metros do Terminal marítimo. O chamado de emergência para a Capitania foi recebido através do rádio por volta das 8 horas.
+
+De acordo com a Prefeitura de Vera Cruz, a lancha saiu do terminal da Ilha por volta das 6h30 com destino a Salvador e naufragou a cerca de 200 metros do Terminal.
+
+A Polícia Militar foi acionada e atuou por meio do Grupamento Aéreo (Graer) e da 5ª Companhia Independente de Polícia Militar (CIPM/Ilha de Vera Cruz), que  também já prestou socorro a algumas vítimas para a Unidade de Pronto Atendimento (UPA) de Mar Grande e ao Hospital Geral de Itaparica.
+
+Segundo a Secretaria de Segurança Pública da Bahia, dois helicópteros da Polícia Militar da Bahia foram enviados ao local, assim como ambulâncias do Corpo de Bombeiros. Além disso, uma equipe de mergulhadores também está à caminho. Ainda de acordo com a secretaria, um chamado sobre o incidente, pelo 190, foi aberto às 6h30 desta manhã.
+
+"Assim que recebemos uma chamada de emergência por rádio, enviamos três embarcações de resgate com médico a bordo e todos as equipes para prestar socorro", afirmou o oficial da Marinha, Jean Torres Araújo.
+
+A avaliação da lancha será feita pela Marinha. Ela analisará a regularização da embarcação e se operava com número de passageiros acima do permitido. Por conta disso, a Secretaria de Segurança Pública informou que um inquérito será aberto para que as causas do acidente sejam apuradas.
+
+O governador da Bahia, Rui Costa (PT), e o prefeito de Salvador, ACM Neto (DEM), postaram notas de pesar em suas respectivas contas nas redes sociais. "Todas as forças do Governo do Estado estão mobilizadas para dar assistência e prestar socorro às vítimas. Estou acompanhando pessoalmente esta difícil operação desde cedo e todas as providências foram tomadas imediatamente, com o reforço dos nossos efetivos nas áreas da segurança e da saúde pública", escreveu o governador.
+
+"Todos os órgãos da Prefeitura estão envolvidos para ajudar nessa hora difícil. Uma equipe de psicólogos e assistentes da Secretaria Municipal de Promoção Social e Combate à Pobreza está no local para prestar atendimento social e psicológico. Também mobilizamos 5 ambulâncias do Samu (2 em Mar Grande e 3 em Salvador) e mais uma "ambulancha" para prestar socorro. As UPAs estão preparadas para atender às vítimas.", informou ACM Neto.
+',
+	'2017-08-24',
+	'09:53',
+	0
+);
+
+INSERT INTO AUTOR_NOTICIA(CD_AUTOR, CD_NOTICIA)
+VALUES(2,8);
+
+INSERT INTO TIPO_USUARIO(CD_TIPO_USUARIO, NM_TIPO_USUARIO) VALUES (1, 'Administrador');
+INSERT INTO USUARIO(CD_LOGIN_USUARIO, NM_USUARIO, NM_SENHA_USUARIO, CD_TIPO_USUARIO) VALUES
+('admin','Micael', '1234a', 1);
